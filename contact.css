@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:gainsboro;
+    background-image: url('../eiffel.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: fixed;
+    background-size: cover;
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+h4{
+    background-color:gray;
+    height: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 5%;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    /* background-color:gray; */
+    font-family:serif;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; */
+}
+.name{
+    text-transform: capitalize;
+    padding: 40px;
+}
+.surname{
+    text-transform: capitalize;
+    padding: 40px;
+}
+.message{
+    text-transform: capitalize;
+    padding: 40px;
+}
+.submit{
+    /* background-color: aqua; */
+    color: brown;
+}
